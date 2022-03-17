@@ -52,6 +52,10 @@ export default styled.div`
     color: ${theme.colors.secondary};
   }
 
+  button {
+    border: none;
+  }
+
   .large-txt {
     font-weight: 400;
     font-size: 18px;
