@@ -21,10 +21,12 @@ function Header() {
           <a href="https://github.com/JungleDevs/react-challenge-001FT"><h5>OurStory</h5></a>
         </nav>
         <section>
-          <button type="button">
+          <button type="button" className="become-nanny">
             <h5>Become a Nanny Share Host</h5>
           </button>
-          <h5>Sign in</h5>
+          <button type="button" className="sign-in">
+            <h5>Sign In</h5>
+          </button>
         </section>
       </DesktopHeader>
     );
