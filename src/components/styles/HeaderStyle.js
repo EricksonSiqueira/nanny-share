@@ -26,6 +26,7 @@ export const MobileHeader = styled.header`
   button h5, a h5 {
     color: ${theme.colors.white};
   }
+
 `;
 
 export const DesktopHeader = styled.header`
@@ -56,19 +57,31 @@ export const DesktopHeader = styled.header`
     color: ${theme.colors.white}
   }
 
+  button {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  h5 {
+    color: ${theme.colors.white};
+  }
+
   img.badge-img {
     position: absolute;
     top: 0;
     left: 20px;
   }
-  button {
+
+  button.become-nanny {
     background-color: ${theme.colors.primary};
     width: 234px;
     height: 44px;
     border: none;
     border-radius: 4px;
   }
-  h5 {
-    color: ${theme.colors.white};
+
+  button.sign-in {
+    background-color: rgba(0, 0, 0, 0);
   }
 `;
