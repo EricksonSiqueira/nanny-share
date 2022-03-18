@@ -56,4 +56,8 @@ export default styled.div`
     font-size: 12px;
     line-height: 16px;
   }
+  .centalized-section {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 `;
