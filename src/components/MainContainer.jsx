@@ -1,12 +1,13 @@
 import React from 'react';
 import Hero from './Hero';
-import StyledMain from './styles/MainContainerStyle';
+import AvailableNanny from './AvailableNanny';
 
 function MainContainer() {
   return (
-    <StyledMain>
+    <main>
       <Hero />
-    </StyledMain>
+      <AvailableNanny />
+    </main>
   );
 }
 
