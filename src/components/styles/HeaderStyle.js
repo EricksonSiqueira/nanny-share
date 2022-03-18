@@ -4,6 +4,7 @@ import theme from '../../theme';
 export const MobileHeader = styled.header`
   width: 100%;
   height: 64px;
+  position: absolute;
 
   img.badge-img {
     position: absolute;
@@ -30,7 +31,6 @@ export const MobileHeader = styled.header`
 `;
 
 export const DesktopHeader = styled.header`
-  background-color: tomato;
   width: 100%;
   height: 72px;
   position: absolute;
