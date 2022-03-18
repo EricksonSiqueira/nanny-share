@@ -63,8 +63,7 @@ export default styled.section`
   }
 
   @media ${`screen and (min-width: ${theme.breakpoints.md})`} {
-    padding-top: 5%;
-    max-height: 620px;
+    min-height: 620px;
     flex-direction: row;
     justify-content: space-around;
   }
