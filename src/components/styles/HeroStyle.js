@@ -66,40 +66,39 @@ export default styled.section`
     min-height: 620px;
     flex-direction: row;
     justify-content: space-around;
-  }
 
-  article {
-    width: 600px;
-  }
+    article {
+      width: 600px;
+    }
 
-  article section.hapu-txt {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-bottom: 50px;
-    gap: 24px;
-  }
+    article section.hapu-txt {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-bottom: 50px;
+      gap: 24px;
+    }
 
-  article section.hapu-btn {
-    justify-content: flex-start;
-    gap: 16px;
-  }
+    article section.hapu-btn {
+      justify-content: flex-start;
+      gap: 16px;
+    }
 
-  h1 {
-    max-width: 490px;
-  }
+    h1 {
+      max-width: 490px;
+    }
 
-  p {
-    max-width: 570px;
-    font-weight: lighter;
-  }
+    p {
+      max-width: 570px;
+      font-weight: lighter;
+    }
 
-  h2, p {
-    text-align: left;
-  }
+    h2, p {
+      text-align: left;
+    }
 
-  img.nanny-connection {
-    padding-right: 120px;
+    img.nanny-connection {
+      padding-right: 120px;
+    }
   }
-
 `;
