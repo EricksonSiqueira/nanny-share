@@ -1,9 +1,11 @@
 import React from 'react';
-import StyledSectionDivider from './styles/SectionDivider';
+import StyledSectionDivider from './styles/SectionDividerStyle';
 
 function SectionDivider() {
   return (
-    <StyledSectionDivider />
+    <StyledSectionDivider>
+      <div />
+    </StyledSectionDivider>
   );
 }
 
