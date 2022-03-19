@@ -3,6 +3,8 @@ import theme from '../../theme';
 
 export default styled.section`
   height: 216px;
+  width: 100vw;
+  background-color: ${theme.colors.white};
 
   article img {
     width: 56px;
@@ -28,9 +30,7 @@ export default styled.section`
   }
 
   @media ${`screen and (min-width: ${theme.breakpoints.md})`} {
-    width: 100vw;
     height: 112px;
-    background-color: ${theme.colors.white};
 
     article {
       flex-direction: row;
