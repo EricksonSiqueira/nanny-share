@@ -5,6 +5,7 @@ import AvailableNanny from './AvailableNanny';
 import ShareNanny from './ShareNanny';
 import LookingForNannyForm from './LookingForNannyForm';
 import SectionDivider from './SectionDivider';
+import SharedPayments from './SharedPayments';
 import useMediaQuery from '../hooks/useMediaQuery';
 import theme from '../theme/index';
 
@@ -18,6 +19,7 @@ function MainContainer() {
       <SectionDivider />
       <LookingForNannyForm isLarge={isLarge} />
       <SectionDivider />
+      <SharedPayments isLarge={isLarge} />
     </StyledMainContainer>
   );
 }
