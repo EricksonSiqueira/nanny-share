@@ -13,5 +13,6 @@ export default {
     grey24: '#3D3D3D',
     grey88: '#DFDFDF',
     white: '#FFFFFF',
+    disabledColor: '#adadad',
   },
 };
