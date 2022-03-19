@@ -11,11 +11,12 @@ function MainContainer() {
   const isLarge = useMediaQuery(`(min-width: ${theme.breakpoints.md})`);
   return (
     <main>
-      <Hero />
-      <AvailableNanny />
+      <Hero isLarge={isLarge} />
+      <AvailableNanny isLarge={isLarge} />
       <ShareNanny isLarge={isLarge} />
       <SectionDivider />
       <LookingForNannyForm isLarge={isLarge} />
+      <SectionDivider />
     </main>
   );
 }
