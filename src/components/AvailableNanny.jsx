@@ -1,11 +1,9 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import StyledAvaliableNanny from './styles/AvailableNannyStyle';
 import ProfileNanny from '../images/profileNanny.svg';
-import theme from '../theme/index';
-import useMediaQuery from '../hooks/useMediaQuery';
 
-function AvailableNanny() {
-  const isLarge = useMediaQuery(`(min-width: ${theme.breakpoints.md})`);
+function AvailableNanny({ isLarge }) {
   const annyScheduleTxt = 'Wednesday, Thursday, Friday - 7:30 - 5:30';
 
   return (
@@ -20,5 +18,9 @@ function AvailableNanny() {
     </StyledAvaliableNanny>
   );
 }
+
+AvailableNanny.propTypes = {
+  isLarge: PropTypes.bool.isRequired,
+};
 
 export default AvailableNanny;

@@ -1,14 +1,12 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import StyledHero from './styles/HeroStyle';
 import HeroBackgroundMobile from '../images/heroMobile.svg';
 import HeroBackgroundDesktop from '../images/heroDesktop.svg';
 import ImageHero from '../images/nannyShare.svg';
 import playButton from '../images/playButton.svg';
-import theme from '../theme/index';
-import useMediaQuery from '../hooks/useMediaQuery';
 
-function Hero() {
-  const isLarge = useMediaQuery(`(min-width: ${theme.breakpoints.md})`);
+function Hero({ isLarge }) {
   const heroTitle = 'Easily create or join a local nanny share with Hapu';
 
   return (
@@ -39,5 +37,9 @@ function Hero() {
     </StyledHero>
   );
 }
+
+Hero.propTypes = {
+  isLarge: PropTypes.bool.isRequired,
+};
 
 export default Hero;
