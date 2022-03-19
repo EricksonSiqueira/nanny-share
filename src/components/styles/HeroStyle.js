@@ -8,7 +8,6 @@ export default styled.section`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  gap: 100px;
 
   img.hero-bg {
     background: linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
@@ -25,7 +24,7 @@ export default styled.section`
   article {
     width: 100%;
     height: 400px;
-    margin-bottom: 60px;
+    margin-bottom: 36px;
   }
 
   article section.hapu-txt {
@@ -33,7 +32,7 @@ export default styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 70px;
+    padding-bottom: 78px;
     gap: 16px;
   }
 
@@ -55,11 +54,11 @@ export default styled.section`
   }
 
   h2 {
-    max-width: 260px;
+    max-width: 272px;
   }
 
   p {
-    max-width: 310px;
+    max-width: 328px;
   }
 
   @media ${`screen and (min-width: ${theme.breakpoints.md})`} {
