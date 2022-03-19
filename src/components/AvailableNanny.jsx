@@ -10,7 +10,7 @@ function AvailableNanny() {
 
   return (
     <StyledAvaliableNanny>
-      <article className="centalized-section">
+      <article className="centralized-section">
         <img src={ProfileNanny} alt="Nanny profile" />
         <a href="https://github.com/JungleDevs/react-challenge-001FT">
           Sarah’s day care available now in North Sydney

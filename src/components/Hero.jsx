@@ -12,7 +12,7 @@ function Hero() {
   const heroTitle = 'Easily create or join a local nanny share with Hapu';
 
   return (
-    <StyledHero className="centalized-section">
+    <StyledHero className="centralized-section">
       <article>
         <section className="hapu-txt">
           {isLarge ? <h1>{heroTitle}</h1> : <h2>{heroTitle}</h2>}
