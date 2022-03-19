@@ -5,6 +5,8 @@ export default styled.section`
   height: 216px;
   width: 100vw;
   background-color: ${theme.colors.white};
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
 
   article img {
     width: 56px;
