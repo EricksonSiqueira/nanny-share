@@ -1,5 +1,7 @@
 import React from 'react';
+
 import StyledMainContainer from './styles/MainContainerStyle';
+
 import Hero from './Hero';
 import AvailableNanny from './AvailableNanny';
 import ShareNanny from './ShareNanny';
@@ -7,6 +9,7 @@ import LookingForNannyForm from './LookingForNannyForm';
 import SectionDivider from './SectionDivider';
 import SharedPayments from './SharedPayments';
 import Framework from './Framework';
+import ComingSoon from './ComingSoon';
 
 import useMediaQuery from '../hooks/useMediaQuery';
 import theme from '../theme/index';
@@ -25,6 +28,7 @@ function MainContainer() {
       <SectionDivider />
       <Framework isLarge={isLarge} />
       <SectionDivider />
+      <ComingSoon isLarge={isLarge} />
     </StyledMainContainer>
   );
 }
