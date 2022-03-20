@@ -24,6 +24,7 @@ function MainContainer() {
       <SharedPayments isLarge={isLarge} />
       <SectionDivider />
       <Framework isLarge={isLarge} />
+      <SectionDivider />
     </StyledMainContainer>
   );
 }
