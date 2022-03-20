@@ -11,10 +11,12 @@ export default styled.section`
 
   img.hero-bg {
     background: linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+    background-position: center;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    min-width: 360px;
+    width: 100vw;
     z-index: -1;
   }
   button.playBtn {
@@ -64,10 +66,15 @@ export default styled.section`
   @media ${`screen and (min-width: ${theme.breakpoints.md})`} {
     min-height: 620px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    img.hero-bg {
+      min-width: 1440px;
+    }
 
     article {
       width: 600px;
+      margin-left: 20px;
     }
 
     article section.hapu-txt {
