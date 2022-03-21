@@ -16,5 +16,6 @@ export default {
     disabledColor: '#adadad',
     primaryHover: '#08bf82',
     secondaryHover: '#7c1ee6',
+    footerLinkHover: '#6e6e6e',
   },
 };
