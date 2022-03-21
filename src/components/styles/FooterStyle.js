@@ -29,8 +29,11 @@ export default styled.footer`
     width: 304px;
     background-color: ${theme.colors.secondary};
 
+    transition: 200ms all ease-in-out;
+
     &:hover {
       cursor: pointer;
+      background-color: ${theme.colors.secondaryHover};
     }
   }
 

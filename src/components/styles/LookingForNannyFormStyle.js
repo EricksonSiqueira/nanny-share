@@ -60,6 +60,10 @@ export default styled.section`
       background-color: #adadad;
       cursor: not-allowed;
     }
+
+    &:hover {
+      background-color: ${theme.colors.primaryHover};
+    }
   }
 
   article form button h5 {

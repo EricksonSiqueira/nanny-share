@@ -79,6 +79,12 @@ export const DesktopHeader = styled.header`
     height: 44px;
     border: none;
     border-radius: 4px;
+    
+    transition: 200ms all ease-in-out;
+
+    &:hover {
+      background-color: ${theme.colors.primaryHover};
+    }
   }
 
   button.sign-in {
