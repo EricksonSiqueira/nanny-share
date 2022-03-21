@@ -54,17 +54,25 @@ export const DesktopHeader = styled.header`
 
   a {
     text-decoration: none;
-    color: ${theme.colors.white}
+    color: ${theme.colors.white};
+  }
+
+  nav.header-nav a h5  {
+    transition: 150ms all ease-in-out;
+
+    &:hover {
+      color: ${theme.colors.grey88};
+    }
+  }
+
+  h5 {
+    color: ${theme.colors.white};
   }
 
   button {
     &:hover {
       cursor: pointer;
     }
-  }
-
-  h5 {
-    color: ${theme.colors.white};
   }
 
   img.badge-img {
@@ -89,5 +97,16 @@ export const DesktopHeader = styled.header`
 
   button.sign-in {
     background-color: rgba(0, 0, 0, 0);
+    
   }
+
+  button.sign-in h5 {
+  transition: 150ms all ease-in-out;
+
+    &:hover {
+      color: ${theme.colors.grey88};
+    }
+  }
+
+
 `;

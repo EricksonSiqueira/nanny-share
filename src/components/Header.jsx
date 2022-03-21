@@ -15,7 +15,7 @@ function Header() {
           alt="nanny share badge"
           className="badge-img"
         />
-        <nav>
+        <nav className="header-nav">
           <a href="https://github.com/JungleDevs/react-challenge-001FT"><h5>Create Your Nanny share</h5></a>
           <a href="https://github.com/JungleDevs/react-challenge-001FT"><h5>Browse Shares</h5></a>
           <a href="https://github.com/JungleDevs/react-challenge-001FT"><h5>OurStory</h5></a>

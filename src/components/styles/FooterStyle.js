@@ -60,10 +60,27 @@ export default styled.footer`
     flex-wrap: wrap;
   }
 
+  nav section.page h5 {
+    transition: 150ms all ease-in-out;
+
+    &:hover {
+      color: ${theme.colors.footerLinkHover};
+    }
+  }
+
   nav section.social-media {
     display: flex;
     justify-content: center;
     column-gap: 16px;
+  }
+
+  nav section.social-media img {
+    border-radius: 50%;
+
+    transition: 150ms all ease-in-out;
+    &:hover {
+      background-color: ${theme.colors.grey88};
+    }
   }
 
   nav section a {
