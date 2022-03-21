@@ -39,23 +39,31 @@ function Footer() {
         Or browse local nanny-shares
       </a>
       <nav>
-        <a href="https://github.com/JungleDevs/react-challenge-001FT">
+        <a href="https://github.com/EricksonSiqueira/nanny-share" target="_blank" rel="noreferrer">
           <img src={hapuLogo} alt="hapu logo" className="hapu-logo" />
         </a>
         <section className="page">
-          <a href="https://github.com/JungleDevs/react-challenge-001FT"><h5>Share Your Nanny</h5></a>
-          <a href="https://github.com/JungleDevs/react-challenge-001FT"><h5>OurStory</h5></a>
-          <a href="https://github.com/JungleDevs/react-challenge-001FT"><h5>Blog</h5></a>
-          <a href="https://github.com/JungleDevs/react-challenge-001FT"><h5>Terms & Privacy</h5></a>
+          <a href="https://github.com/EricksonSiqueira/nanny-share" target="_blank" rel="noreferrer">
+            <h5>Share Your Nanny</h5>
+          </a>
+          <a href="https://github.com/EricksonSiqueira/nanny-share" target="_blank" rel="noreferrer">
+            <h5>OurStory</h5>
+          </a>
+          <a href="https://github.com/EricksonSiqueira/nanny-share" target="_blank" rel="noreferrer">
+            <h5>Blog</h5>
+          </a>
+          <a href="https://github.com/EricksonSiqueira/nanny-share" target="_blank" rel="noreferrer">
+            <h5>Terms & Privacy</h5>
+          </a>
         </section>
         <section className="social-media">
-          <a href="https://github.com/JungleDevs/react-challenge-001FT">
+          <a href="https://github.com/EricksonSiqueira/nanny-share" target="_blank" rel="noreferrer">
             <img src={Facebook} alt="facebook icon" />
           </a>
-          <a href="https://github.com/JungleDevs/react-challenge-001FT">
+          <a href="https://github.com/EricksonSiqueira/nanny-share" target="_blank" rel="noreferrer">
             <img src={Twitter} alt="twitter icon" />
           </a>
-          <a href="https://github.com/JungleDevs/react-challenge-001FT">
+          <a href="https://github.com/EricksonSiqueira/nanny-share" target="_blank" rel="noreferrer">
             <img src={Instagram} alt="instagram icon" />
           </a>
         </section>

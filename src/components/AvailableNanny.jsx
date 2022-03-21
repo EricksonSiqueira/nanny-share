@@ -10,7 +10,7 @@ function AvailableNanny({ isLarge }) {
     <StyledAvaliableNanny>
       <article className="centralized-section">
         <img src={ProfileNanny} alt="Nanny profile" />
-        <a href="https://github.com/JungleDevs/react-challenge-001FT">
+        <a href="https://github.com/EricksonSiqueira/nanny-share" target="_blank" rel="noreferrer">
           Sarah’s day care available now in North Sydney
         </a>
         {isLarge ? <h4>{annyScheduleTxt}</h4> : <h5>{annyScheduleTxt}</h5>}

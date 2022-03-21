@@ -16,9 +16,15 @@ function Header() {
           className="badge-img"
         />
         <nav className="header-nav">
-          <a href="https://github.com/JungleDevs/react-challenge-001FT"><h5>Create Your Nanny share</h5></a>
-          <a href="https://github.com/JungleDevs/react-challenge-001FT"><h5>Browse Shares</h5></a>
-          <a href="https://github.com/JungleDevs/react-challenge-001FT"><h5>OurStory</h5></a>
+          <a href="https://github.com/EricksonSiqueira/nanny-share" target="_blank" rel="noreferrer">
+            <h5>Create Your Nanny share</h5>
+          </a>
+          <a href="https://github.com/EricksonSiqueira/nanny-share" target="_blank" rel="noreferrer">
+            <h5>Browse Shares</h5>
+          </a>
+          <a href="https://github.com/EricksonSiqueira/nanny-share" target="_blank" rel="noreferrer">
+            <h5>OurStory</h5>
+          </a>
         </nav>
         <section>
           <button type="button" className="become-nanny">

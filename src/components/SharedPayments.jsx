@@ -22,7 +22,7 @@ function SharedPayments({ isLarge }) {
           and our automated payment system takes care of the rest. You need
           never talk money or who owes what.
         </p>
-        <a href="https://github.com/EricksonSiqueira">
+        <a href="https://github.com/EricksonSiqueira/nanny-share" target="_blank" rel="noreferrer">
           Read how Bridget’s share (without Hapu) ended over $15
         </a>
       </article>

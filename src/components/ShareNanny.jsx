@@ -22,7 +22,9 @@ function ShareNanny({ isLarge }) {
             other parents to share your costs? Well now it is,
             with Hapu.
             {' '}
-            <a href="https://github.com/EricksonSiqueira">Hapu means tribe</a>
+            <a href="https://github.com/EricksonSiqueira/nanny-share" target="_blank" rel="noreferrer">
+              Hapu means tribe
+            </a>
             {' '}
             and it’s our foundational
             3 tribal principles that empowers you to create and manage your own tribe.
@@ -30,7 +32,9 @@ function ShareNanny({ isLarge }) {
             in childcare that work for you and your community.
           </p>
           <a
-            href="https://github.com/EricksonSiqueira"
+            href="https://github.com/EricksonSiqueira/nanny-share"
+            target="_blank"
+            rel="noreferrer"
             className="get-started"
           >
             Ready to get started?
