@@ -14,5 +14,7 @@ export default {
     grey88: '#DFDFDF',
     white: '#FFFFFF',
     disabledColor: '#adadad',
+    primaryHover: '#08bf82',
+    secondaryHover: '#7c1ee6',
   },
 };
