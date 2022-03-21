@@ -23,6 +23,8 @@ function LookingForNannyForm({ isLarge }) {
     event.preventDefault();
     const objectToPost = { name, email };
     postMethod(objectToPost, URL);
+    setEmail('');
+    setName('');
   };
 
   return (
