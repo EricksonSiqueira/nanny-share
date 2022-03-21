@@ -27,7 +27,7 @@ npm start
 ```
 A web site will open on your main browser.
 
->If it doesn't open automatically type and run the following `url` in a tab on your browser `http://localhost:3000/`
+>If it doesn't open automatically type and run the following `url` in a tab on your browser `http://localhost:3000/nany-share`
 
 ## Test
 
