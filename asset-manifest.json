@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nanny-share/static/css/main.ddd36f75.css",
-    "main.js": "/nanny-share/static/js/main.09010d64.js",
+    "main.js": "/nanny-share/static/js/main.0b7e3bd1.js",
     "static/js/787.f5e1f4b9.chunk.js": "/nanny-share/static/js/787.f5e1f4b9.chunk.js",
     "static/media/heroDesktop.svg": "/nanny-share/static/media/heroDesktop.8a16372f05a23da9f4e328c1e004ad73.svg",
     "static/media/heroMobile.svg": "/nanny-share/static/media/heroMobile.a4b9bb2090ba60c6e6b7533d13e60de6.svg",
@@ -22,11 +22,11 @@
     "static/media/facebook.svg": "/nanny-share/static/media/facebook.2ab87ece8bff0c5222482762f6ce5b2a.svg",
     "static/media/playButton.svg": "/nanny-share/static/media/playButton.7a34ea28c77a70fb08abc5c65c697450.svg",
     "main.ddd36f75.css.map": "/nanny-share/static/css/main.ddd36f75.css.map",
-    "main.09010d64.js.map": "/nanny-share/static/js/main.09010d64.js.map",
+    "main.0b7e3bd1.js.map": "/nanny-share/static/js/main.0b7e3bd1.js.map",
     "787.f5e1f4b9.chunk.js.map": "/nanny-share/static/js/787.f5e1f4b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddd36f75.css",
-    "static/js/main.09010d64.js"
+    "static/js/main.0b7e3bd1.js"
   ]
 }
